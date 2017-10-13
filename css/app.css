@@ -4,4 +4,62 @@ body{
 /* #1c36 color café bonito */
 #social-container{
     background-color: #1c3646;  
+    padding-top: 10px;
+}
+
+#logo-container .callout{
+    font-family: 'Amatic SC', cursive;
+    background-color: #1c36;
+    font-size: 3.2em;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+#menu-container{
+    font-family: 'Amatic SC', cursive;
+    background-color:#008080;
+}
+#menu-container li a{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+#menu-container li a:hover{
+    color:#1c3646;
+}
+img.img-responsive-circle{
+max-width: 100%;
+height: auto;
+border-radius: 50% 
+}
+.font-load-profile
+{
+    font-family: 'Amatic SC', cursive;
+    color: #ffffff;
+    font-size: 5.5em;
+    margin-bottom: 0;
+}
+#timeline-container .callout{
+    background-color: #5e7eb7;
+    padding-top: 0;
+}
+.tabs-container {
+    background-color: #5e7eb7;
+    border:0;
+}
+.tabs .tabs-title a{
+    font-size: 2.2em;
+    color:#ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.tabs .tabs-title a:hover{
+    color: #014122;
+    background-color: transparent;
+    text-decoration:overline underline;
+}
+
+.tabs .tabs-title.is-active a{
+    color: #014122;
+    background-color: transparent;
+    text-decoration:overline;
 }
