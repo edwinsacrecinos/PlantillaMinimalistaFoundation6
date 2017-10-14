@@ -6,7 +6,6 @@ body{
     background-color: #1c3646;  
     padding-top: 10px;
 }
-
 #logo-container .callout{
     font-family: 'Amatic SC', cursive;
     background-color: #1c36;
@@ -14,7 +13,6 @@ body{
     color: #ffffff;
     margin-bottom: 0;
 }
-
 #menu-container{
     font-family: 'Amatic SC', cursive;
     background-color:#008080;
@@ -38,28 +36,51 @@ border-radius: 50%
     font-size: 5.5em;
     margin-bottom: 0;
 }
-#timeline-container .callout{
+#timeline-header{
     background-color: #5e7eb7;
     padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0.8em;
 }
-.tabs-container {
+#line-container, #line-container .tabs {
+    font-family: 'Amatic SC', cursive;
     background-color: #5e7eb7;
+    color:#ffffff;
     border:0;
 }
-.tabs .tabs-title a{
+#line-container .tabs .tabs-title a{ 
     font-size: 2.2em;
-    color:#ffffff;
-    font-family: 'Amatic SC', cursive;
     font-weight: bold;
+    color:#ffffff;
 }
-.tabs .tabs-title a:hover{
-    color: #014122;
+#line-container .tabs .tabs-title a:hover{
+    color: rgba(255, 255, 255, 0.66);
     background-color: transparent;
-    text-decoration:overline underline;
+    text-decoration:overline ;
 }
-
-.tabs .tabs-title.is-active a{
-    color: #014122;
-    background-color: transparent;
+#line-container .tabs .tabs-title.is-active a{
+    background-color: #5e7eb7;
     text-decoration:overline;
+} 
+.tabs-title{
+    display: inline-block;
+    float: none;
+}
+.tabs-panel{
+    color:#ffffff;
+    font-size: 2.2em;
+    background: #5e7eb7;
+}
+.title-left{
+    color: gray;
+    padding-left: 2.7em;
+}
+.secondary-p
+{
+    color:#59b5b1;
+}
+.secondary-h{
+    font-weight: bold;
+    color:#59b5b1;
+    font-family: 'Amatic SC', cursive;
 }

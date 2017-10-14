@@ -34,6 +34,13 @@
                 </h4>
                 </a>                    
             </div>
+            <div class="column small-1 ">
+                <a href="#" target="_blank">
+                <h4>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>                        
+                </h4>
+                </a>                    
+            </div>
         </div>
     </section>
 
@@ -46,44 +53,143 @@
     <section id="menu-container">
         <ul class="menu align-spaced">
             <li><a href="#social-container"> <i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
-            <li><a href="#timeline-container"> <i class="fa fa-user" aria-hidden="true"></i> Perfil</a></li>
+            <li><a href="#timeline-header"> <i class="fa fa-user" aria-hidden="true"></i> Perfil</a></li>
             <li><a href="#"> <i class="fa fa-graduation-cap" aria-hidden="true"></i> Educación</a></li>
-            <li><a href="#"> <i class="fa fa-book" aria-hidden="true"></i> Proyectos</a></li>
             <li><a href="#"> <i class="fa fa-cubes" aria-hidden="true"></i> Tecnologías</a></li>
+            <li><a href="#"> <i class="fa fa-book" aria-hidden="true"></i> Proyectos</a></li>
             <li><a href="#"> <i class="fa fa-tags" aria-hidden="true"></i> Contactos</a></li>    
         </ul>
     </section>
 
     <!-- Línea de vida -->
-    <section id="timeline-container">
-        <div class="callout large">
+    <section id="timeline-header">
             <h1 class="text-center font-load-profile">Perfil</h1>
             <div class="row align-center">
                 <div class="column samll-4 medium-6 large-4">
                     <img src="img/FotoPerfil.jpg" alt="Foto Perfil" class="img-responsive-circle img-size-profile">
+                </div>    
+            </div>
+    </section>
+    
+    <section id="line-container">
+    <ul class="tabs text-center" data-tabs id="line-tabs">
+        <li class="tabs-title is-active"><a href="#PanelPersonal">Personal</a></li>
+        <li class="tabs-title"><a href="#PanelIdiomas">Idiomas</a></li>
+        <li class="tabs-title"><a href="#PanelAptitudes">Aptitudes</a></li>
+    </ul>
+    <div class="tabs-content" data-tabs-content="line-tabs">
+
+        <div class="tabs-panel is-active" id="PanelPersonal">
+            <div class="row">
+                <div class="small-12 medium-6 columns">
+                    <div class="off-canvas-wrapper">
+                        <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit1" data-off-canvas>
+                         <p class="title-left">Nombre:</p>         
+                        </div>
+                        <div class="off-canvas-content" style="min-height: 128px;" data-off-canvas-content>
+                        <p>Edwin Luis Carlos Sac Recinos</p>
+                        </div>
+                    </div>
+                <button type="button" class="button large" data-toggle="offCanvasLeftSplit1"><i class="fa fa-search-plus" aria-hidden="true"></i> Leer</button>
+                </div>
+                <div class="small-12 medium-6 columns">
+                    <div class="off-canvas-wrapper">
+                        <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit2" data-off-canvas>
+                        <p class="title-left">Título:</p>         
+                        </div>
+                        <div class="off-canvas-content" style="min-height: 100px;" data-off-canvas-content>
+                        <p>Ingeniero en Sistemas, Informática y Ciencias de la Computación</p>
+                        </div>
+                        </div>
+                    <button type="button" class="button large" data-toggle="offCanvasLeftSplit2"><i class="fa fa-search-plus" aria-hidden="true"></i> Leer</button>
+                </div>
+
+                <div class="small-12 medium-6 columns">
+                        <div class="off-canvas-wrapper">
+                            <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit3" data-off-canvas>
+                             <p class="title-left">Residencia:</p>         
+                            </div>
+                            <div class="off-canvas-content" style="min-height: 75px;" data-off-canvas-content>
+                            <p>Zona 1 Quetzaltenango, Quetzaltenango</p>
+                            </div>
+                        </div>
+                    <button type="button" class="button large" data-toggle="offCanvasLeftSplit3"><i class="fa fa-search-plus" aria-hidden="true"></i> Leer</button>
+                </div>
+                <div class="small-12 medium-6 columns">
+                        <div class="off-canvas-wrapper">
+                            <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit4" data-off-canvas>
+                            <p class="title-left">Colegiado:</p>         
+                            </div>
+                            <div class="off-canvas-content" style="min-height: 75px;" data-off-canvas-content>
+                            <p>15302</p>
+                            </div>
+                            </div>
+                        <button type="button" class="button large" data-toggle="offCanvasLeftSplit4"><i class="fa fa-search-plus" aria-hidden="true"></i> Leer</button>
+                </div>
+    
+            </div>
+            </div>
+        
+
+        <div class="tabs-panel" id="PanelIdiomas">
+            <div class="row">
+                <div class="column small-12 medium-6">
+                    <div class="callout text-center success">
+                        <h2 class="secondary-h">Español 100%</h5>
+                        <p class="secondary-p">Nativo</p>
+                    </div>
+                </div>
+                <div class="column small-12 medium-6">
+                    <div class="callout text-center success">
+                        <h2 class="secondary-h">Inglés 50%</h5>
+                        <p class="secondary-p">Técnico</p>
+                    </div>
                 </div>
             </div>
-            
-                
-                    <ul class="tabs text-center tabs-container" data-tabs id="line-tabs">
-                        <li class="tabs-title is-active"><a href="#panelPersonal">Personal</a></li>
-                        <li class="tabs-title"><a href="#panelIdiomas">Idiomas</a></li>
-                        <li class="tabs-title"><a href="#panelAptitudes">Aptitudes</a></li>
-                    </ul>
-                
-                <div class="tabs-content" data-tabs-content="line-tabs" >
-                    <div class="tabs-panel is-active" id="panelPersonal">
-                        soy un contenido 1 
-                    </div>
-                    <div class="tabs-panel" id="panelIdiomas">
-                        soy un contenido 2
-                    </div>
-                    <div class="tabs-panel" id="panelAptitudes">
-                        soy un contenido 3 
+        </div>
+
+        <div class="tabs-panel" id="PanelAptitudes">
+            <div class="row">
+                <div class="column small-12 medium-4">
+                    <div class="media-object">
+                        <div class="media-object-section">
+                            <div class="thumbnail">
+                            <img src="img/lider.jpg" height="100px" width="100px"  alt="lider">
+                            </div>
+                        </div>
+                        <div class="media-object-section" style="padding-top:1.1em;">
+                            <h4>Liderazgo</h4>
+                        </div>
                     </div>
                 </div>
-            
+                <div class="column small-12 medium-4">
+                        <div class="media-object">
+                            <div class="media-object-section">
+                                <div class="thumbnail">
+                                <img src="img/autodidacta.png" height="100px" width="100px"  alt="lider">
+                                </div>
+                            </div>
+                            <div class="media-object-section" style="padding-top:1.1em;">
+                                <h4>Autodidacta</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-12 medium-4">
+                            <div class="media-object">
+                                <div class="media-object-section">
+                                    <div class="thumbnail">
+                                    <img src="img/creatividad.jpg" height="120px" width="120px"  alt="lider">
+                                    </div>
+                                </div>
+                                <div class="media-object-section" style="padding-top:1.1em;">
+                                    <h4>Creativo</h4>
+                                </div>
+                            </div>
+                        </div>
+            </div>
         </div>
+
+    </div>
     </section>
     <!-- Línea de vida -->
 
