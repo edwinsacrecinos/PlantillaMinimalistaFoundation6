@@ -1,7 +1,6 @@
 body{
     background: #ee3f54;
 }
-/* #1c36 color café bonito */
 #social-container{
     background-color: #1c3646;  
     padding-top: 10px;
@@ -84,6 +83,24 @@ border-radius: 50%
     color:#59b5b1;
     font-family: 'Amatic SC', cursive;
 }
+
+/*------------------------Section Tech---------------------------------------------*/
+#tech-container{
+    
+    background-color: #1c36;
+}
+#tech-container h1{
+    font-weight: bold;
+    color:#ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.8em;
+    
+}
+.card-font{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+/*------------------------Section Tech---------------------------------------------*/
 
 /*-----------------------Section Education Container ------------------------------*/
 #education-container {
