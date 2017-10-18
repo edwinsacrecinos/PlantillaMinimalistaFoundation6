@@ -14,8 +14,21 @@ body{
 }
 #menu-container{
     font-family: 'Amatic SC', cursive;
-    background-color:#008080;
 }
+/*----------options menu --------------*/
+.top-bar, .top-bar ul {
+    background-color: #008080;
+}
+.title-bar{
+    background-color: #008080;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+.title-bar .menu-icon {
+    margin-right: 0.6rem;
+}
+/*----------options menu --------------*/
+
 #menu-container li a{
     color: #ffffff;
     font-size: 1.5em;
