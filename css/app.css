@@ -102,6 +102,15 @@ border-radius: 50%
 }
 /*------------------------Section Tech---------------------------------------------*/
 
+/*------------------------Section Social Media 2---------------------------------------------*/
+#socialmedia-container  .marketing-site-three-up-headline{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 3.3em;
+    color: #59B5B1;
+}
+/*------------------------Section Social Media 2---------------------------------------------*/
+
 /*-----------------------Section Education Container ------------------------------*/
 #education-container {
     background-color: #86AA85;
