@@ -7,7 +7,7 @@ body{
 }
 #logo-container .callout{
     font-family: 'Amatic SC', cursive;
-    background-color: #1c36;
+    background-color: #967747;
     font-size: 3.2em;
     color: #ffffff;
     margin-bottom: 0;
@@ -87,7 +87,7 @@ border-radius: 50%
 /*------------------------Section Tech---------------------------------------------*/
 #tech-container{
     
-    background-color: #1c36;
+    background-color: #967747;
 }
 #tech-container h1{
     font-weight: bold;
