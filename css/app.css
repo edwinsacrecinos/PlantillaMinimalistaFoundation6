@@ -54,6 +54,22 @@ border-radius: 50%
     margin-bottom: 0;
     padding-bottom: 0.8em;
 }
+
+@media (min-width: 331px) and (max-width: 427px) {
+    .tabs-title {
+        display: inline-block;
+        float: none;
+        font-size: .65em;
+    }    
+}
+@media(max-width: 330px) {
+    .tabs-title {
+        display: inline-block;
+        float: none;
+        font-size: .55em;
+    }    
+}
+
 #line-container, #line-container .tabs {
     font-family: 'Amatic SC', cursive;
     background-color: #5e7eb7;
